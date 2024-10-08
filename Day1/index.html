@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table border="1">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" id="username" name="username" placeholder="Username" required /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password" required /></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input type="email" id="email" name="email" required /></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" name="dob" required /></td>
+            </tr>
+            <tr>
+                <td><label for="profile">Upload Profile</label></td>
+                <td><input type="file" id="profile" name="profile" /></td>
+            </tr>
+            <tr>
+                <td>Branch</td>
+                <td>
+                    <label><input type="radio" value="CS" name="branch" /> CS</label>
+                    <label><input type="radio" value="CSE" name="branch" /> CSE</label>
+                    <label><input type="radio" value="IT" name="branch" /> IT</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages Known</td>
+                <td>
+                    <label><input type="checkbox" name="language" value="C" /> C</label>
+                    <label><input type="checkbox" name="language" value="C++" /> C++</label>
+                    <label><input type="checkbox" name="language" value="Java" /> Java</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="city">Selected City</label></td>
+                <td>
+                    <select id="city" name="city" required>
+                        <option value="GHZ">Ghaziabad</option>
+                        <option value="DELHI">Delhi</option>
+                        <option value="NOIDA">Noida</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
