@@ -15,8 +15,8 @@ body {
   border: 3px solid red;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   padding: 40px 20px 30px 33px; /* uncommented padding styles */
   color: blanchedalmond;
 }
